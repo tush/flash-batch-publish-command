@@ -1,0 +1,24 @@
+<!-- Author: Tushar Wadekar -->
+<!-- Description: XMLUI - required for Publish Files Command -->
+<!-- Contact: tusharwadekar@gmail.com -->
+<!-- URL: http://tush.wordpress.com -->
+<!-- Ver: 1.4 -->
+<dialog title="Publish Files Command" buttons="accept,cancel">
+	<grid>
+		<columns>
+			<column/>
+			<column/>			
+		</columns>
+		<rows>
+			<row>
+				<flash width="511"  src="Publish Files.swf"  height="200" />
+				<property id="Path" value="" />
+				<property id="ExportPath" value="" />
+				<property id="PublishProfilePath" value="" />
+				<property id="subFolder" value="false" />
+				<property id="SaveFile" value="false" />
+				<property id="PublishProfile" value="false" />
+			</row>	
+		</rows>
+	</grid>
+</dialog>

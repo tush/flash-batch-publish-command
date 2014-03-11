@@ -1,0 +1,25 @@
+<macromedia-extension name="Batch Publishing Tool" version="1.4" type="Flash Command">
+<author name="Tushar Wadekar" />
+<products>
+  <product name="Flash" version="7" primary="true" />
+</products>
+<description>
+<![CDATA[
+    Publish Files Command for Flash.
+    This command lets you publish all Flash files from a particular folder one by one. You can also change the Publish Profile before publishing the file. Also, you can specify a path to export SWF files (instead of publish).
+    Contact: tusharwadekar@gmail.com
+    URL: http://tush.wordpress.com
+]]>
+</description>
+<ui-access>
+<![CDATA[
+This command can be accessed from,
+Commands > Publish Files
+]]>
+</ui-access>
+<files>
+  <file name="Publish Files.jsfl" destination="$flash\Commands\" />
+  <file name="PublishFilesPanel.xml" destination="$flash\Commands\" />
+  <file name="Publish Files.swf" destination="$flash\Commands\" />
+</files>
+</macromedia-extension>
